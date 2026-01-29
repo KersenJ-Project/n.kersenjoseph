@@ -52,11 +52,12 @@ export default function Home() {
                   </span>
                 </AnimatedButton>
               </Link>
-              <Link
-                to="/about"
-                className="text-sm font-medium text-slate-100 underline-offset-4 hover:text-sky-300 hover:underline"
-              >
-                {t('home.hero_cta_secondary')}
+              <Link to="/contact">
+                <AnimatedButton>
+                  <span className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-2.5 text-sm font-semibold text-slate-950 shadow-sm shadow-sky-500/30 transition hover:bg-gray-300">
+                    {t('home.hero_cta_secondary')}
+                  </span>
+                </AnimatedButton>
               </Link>
             </div>
 
@@ -88,10 +89,28 @@ export default function Home() {
                     {t('home.hero_card_name')}
                   </p>
                 </div>
-                <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-[11px] font-medium text-emerald-300">
-                  <span className="h-2 w-2 rounded-full bg-emerald-400" />
+                <motion.div
+                  animate = {{
+                    scale: [1, 1.08, 1],
+                    boxShadow: [
+                      "0 0 0px rgba(18, 249, 32, 0.85)",
+                      "0 0 8px rgba(68, 279, 32, 0.7)",
+                      "0 0 0px rgba(31, 235, 32, 0.85)"
+                    ]
+                  }}
+                  transition = {{
+                    duration: 1.2,
+                    repeat: Infinity,
+                    repeatType: "loop",
+                    repeatDelay: 2
+                  }}
+                  className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-[11px] font-medium text-emerald-300"
+                >
+                  <span 
+                    className="h-2 w-2 rounded-full bg-emerald-400" 
+                  />
                   {t('home.hero_card_status')}
-                </div>
+                </motion.div>
               </div>
 
               <dl className="space-y-3 text-xs sm:text-sm text-slate-300">
