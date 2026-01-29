@@ -12,9 +12,9 @@ export default function App(){
     return(
         <I18nextProvider i18n={i18n}>
       <BrowserRouter>
-        <div className="flex flex-col min-h-screen w-screen">
+        <div className="flex flex-col min-h-screen w-full bg-slate-950">
           <NavBar />
-          <main className='flex flex-grow items-center justify-center w-screen bg-sky-50'>
+          <main className="flex flex-grow items-stretch justify-center w-full">
               <ScrollToTop />
               <AppRoutes />
           </main>

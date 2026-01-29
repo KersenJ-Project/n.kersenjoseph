@@ -1,30 +1,125 @@
 {
-    "navbar": {
-        "home": "Home",
-        "about": "About Us",
-        "contact": "Contact"
-    },
-    "footer":{
-        "description": "Quality services for individuals from home since 2022.",
-        "address_value": "Evry, France",
-        "rights_reserved": "All rights reserved."
-    },
-    "home": {
-        "hero_title": "Professional Car Cleaning",
-        "hero_description": "Make your car shine like the first day.",
-        "hero_contact": "Contact Us",
-        "services_title": "Services offered",
-        "services_reservation": "Book a service",
-        "about_text": "Founded in 2022 by a group of engineering students passionate about quality and service, our small company offers mobile car cleaning services for Montreal and the surrounding areas. We combine technical expertise with attention to detail to make every vehicle spotless, while providing you with a convenient service right at your doorstep.",
-        "reviews_title": "Reviews"
-    },
-    "aboutus": {
-        "title" : "About Us",
-        "description": "Founded in 2022 by a group of engineering students passionate about quality and service, our small company offers at-home car cleaning services in Montreal and surrounding areas. We combine technical expertise with attention to detail to make every vehicle spotless, while providing fast and convenient service directly at your doorstep."
-    },
-    "contact": {
-        "days_operation": "Days of Operation",
-        "days_of_work": "Sunday - Friday ",
-        "contact_info": "Contact Information"
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "footer": {
+    "brand": "SAINT-HILAIRE Law Firm",
+    "description": "A boutique law firm dedicated to Business Law, Immigration Law and Civil Litigation, with a strong focus on proximity and tailored solutions.",
+    "contact_title": "Contact",
+    "address_value": "15 rue des Mazières, 91000 Évry (opposite the Judicial Court)",
+    "rights_reserved": "All rights reserved.",
+    "siren_label": "SIREN",
+    "siren_value": "991 849 886"
+  },
+  "home": {
+    "hero_tagline": "Business Law • Compliance • Litigation",
+    "hero_title": "A business law firm with a human touch",
+    "hero_description": "Maître Jovenel SAINT-HILAIRE first practised in Paris before setting up in Essonne. His practice focuses mainly on Business Law and he assists companies with their legal and litigation matters. As a general practitioner, he also acts in Immigration Law and Civil Litigation.",
+    "hero_secondary": "Proximity, availability, responsiveness and attentive listening are central to each case in order to deliver bespoke, effective solutions.",
+    "hero_cta_primary": "Book an appointment",
+    "hero_cta_secondary": "Discover the firm",
+    "hero_badge_bar": "Member of the Essonne Bar",
+    "hero_badge_business": "Strategic support for company directors and businesses, in France and abroad.",
+    "hero_card_title": "Profile",
+    "hero_card_name": "Maître Jovenel SAINT-HILAIRE",
+    "hero_card_status": "Available by appointment",
+    "hero_card_business_title": "Business Law",
+    "hero_card_business_desc": "Advisory and Litigation services for companies, directors and entrepreneurs.",
+    "hero_card_compliance_title": "Banking Compliance",
+    "hero_card_compliance_desc": "Experience in Banking Compliance serving robust risk management and regulatory alignment.",
+    "hero_card_bar_title": "International background",
+    "hero_card_bar_desc": "Legal career started abroad in 2015, with a practice shaped by economic and strategic considerations.",
+    "hero_card_address_title": "Chambers",
+    "hero_card_address_desc": "15 rue des Mazières, 91000 Évry, opposite the Judicial Court.",
+    "services_tagline": "Practice areas",
+    "services_title": "Expertise structured around your business challenges",
+    "services_intro": "The firm acts both in Advisory and Litigation work, securing your operations while representing you before the relevant courts when necessary.",
+    "services": {
+      "business_law": {
+        "title": "Business Law",
+        "description": "Assistance to companies in their commercial relationships, contracts and disputes with partners, customers or suppliers."
+      },
+      "contracts": {
+        "title": "Contracts & Compliance",
+        "description": "Drafting, reviewing and securing your contracts, with specific attention to Banking and Regulatory Compliance."
+      },
+      "litigation": {
+        "title": "Litigation & Dispute Resolution",
+        "description": "Representation before civil and commercial courts, and early implementation of pragmatic settlement strategies."
+      },
+      "corporate": {
+        "title": "Corporate",
+        "description": "Support in the incorporation, structuring and day-to-day corporate life of companies, alongside shareholders and executives."
+      }
     }
+  },
+  "values": {
+    "tagline": "Firm values",
+    "title": "A practice built on rigour and listening",
+    "intro": "With a core focus on Business Law, Maître SAINT-HILAIRE grounds his practice on a constant commitment to his clients and a deep understanding of their economic environment.",
+    "rigor": {
+      "title": "Rigour & legal certainty",
+      "description": "Thorough analysis of legislation and case law, in order to secure your decisions and projects over time."
+    },
+    "reactivity": {
+      "title": "Responsiveness & efficiency",
+      "description": "Close monitoring of your matters and an ability to act swiftly to protect your interests and anticipate risks."
+    },
+    "listen": {
+      "title": "Listening & proximity",
+      "description": "A relationship built on trust, pedagogy and availability, enabling you to make informed decisions."
+    }
+  },
+  "aboutus": {
+    "tagline": "Background & philosophy",
+    "title": "A career rooted in Business Law",
+    "intro": "SAINT-HILAIRE Law Firm serves companies, directors and individuals through expertise structured around Business Law, Compliance and Litigation.",
+    "profile_title": "A lawyer at the crossroads of Advisory and Litigation",
+    "profile_body": "Holding a Master’s degree (Master 2) in Business Law, Maître SAINT-HILAIRE has developed a cross-functional approach to Business Law, assisting clients in both Advisory and Litigation work. His experience in Banking Compliance gives him a detailed understanding of regulatory and risk issues.",
+    "approach_title": "A strategic and pragmatic approach",
+    "approach_body": "Driven by constant curiosity, Maître SAINT-HILAIRE strives to grasp the economic and strategic stakes of each case. His dynamism and focus on efficiency guide the search for concrete, tailored solutions.",
+    "timeline_aria": "Key stages in Maître SAINT-HILAIRE's career",
+    "timeline_1_period": "Academic background",
+    "timeline_1_title": "Master 2 in Business Law",
+    "timeline_1_body": "Advanced training in Corporate Law, Contract Law, Business Litigation and Corporate Governance.",
+    "timeline_2_period": "Compliance & banking experience",
+    "timeline_2_title": "Specialisation in Banking Compliance",
+    "timeline_2_body": "Experience in Banking Compliance with a practice oriented towards risk prevention and regulatory implementation.",
+    "timeline_3_period": "Bar & current practice",
+    "timeline_3_title": "Essonne Bar",
+    "timeline_3_body": "Legal career started abroad in 2015, followed by admission to the Essonne Bar, with a practice centred on Business Law, Immigration Law and Civil Litigation."
+  },
+  "contact": {
+    "tagline": "Book an appointment",
+    "title": "Contact the firm",
+    "intro": "You can arrange an initial meeting, a consultation or the follow-up of an ongoing matter.",
+    "info_block_title": "Firm contact details",
+    "info_block_body": "Meetings can take place at the firm, by videoconference or by telephone, depending on your constraints and on the nature of the case.",
+    "phone_label": "Phone",
+    "email_label": "E-mail",
+    "address_label": "Office address",
+    "address_value": "15 rue des Mazières, 91000 Évry (opposite the Judicial Court)",
+    "hours_label": "Opening hours",
+    "hours_value": "Monday to Friday, from 9:00 a.m. to 7:30 p.m.",
+    "siren_label": "SIREN",
+    "siren_value": "991 849 886",
+    "form_title": "Send a message",
+    "form_intro": "Briefly describe your situation: the firm will get back to you to propose an appointment and, where appropriate, a fee proposal.",
+    "days_operation": "Days of operation",
+    "days_of_work": "Monday - Friday",
+    "contact_info": "Contact information"
+  },
+  "form": {
+    "name_label": "Full name",
+    "name_placeholder": "Your first and last name",
+    "email_label": "E-mail address",
+    "email_placeholder": "your.email@example.com",
+    "phone_label": "Phone number",
+    "phone_placeholder": "Your contact number",
+    "message_label": "Subject and message",
+    "message_placeholder": "Briefly describe your request or the nature of the case.",
+    "submit_label": "Send request"
+  }
 }
