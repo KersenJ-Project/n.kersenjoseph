@@ -16,7 +16,7 @@ export default function Footer() {
               </h2>
             </div>
             <p className="text-sky-300 text-sm leading-relaxed max-w-md">
-              {t('footer.description')}
+              Prenez rendez-vous avec Maître SAINT-HILAIRE pour vos besoins en conseils et rédaction juridiques et vos contentieux.
             </p>
           </div>
 

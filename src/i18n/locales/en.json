@@ -2,8 +2,6 @@
     "navbar": {
         "home": "Home",
         "about": "About Us",
-        "services": "Services",
-        "review": "Clients Review",
         "contact": "Contact"
     },
     "footer":{
@@ -27,26 +25,6 @@
     "contact": {
         "days_operation": "Days of Operation",
         "days_of_work": "Sunday - Friday ",
-        "closed" : "Saturday: Closed"
-    },
-   "services": {
-        "title": "Pricing & Reservations",
-        "subtitle": "Select your services in just a few clicks and enjoy hassle-free at-home car cleaning.",
-        "client_info": "Client Information",
-        "full_name": "Full Name *",
-        "email": "Email *",
-        "phone": "Phone *",
-        "address": "Address *",
-        "comments": "Additional Comments (optional) *",
-        "available_services": "Available Services",
-        "add_to_cart": "Add",
-        "your_selection": "Your Selection",
-        "total": "Total",
-        "request_services": "Submit Request",
-        "sending": "Sending..."
-    },
-    "reviews": {
-        "title": "Reviews of clients",
-        "load_more": "Load more"
+        "contact_info": "Contact Information"
     }
 }

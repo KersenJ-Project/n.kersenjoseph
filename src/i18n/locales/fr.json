@@ -26,27 +26,7 @@
     },
     "contact": {
         "days_operation": "Journées de travail",
-        "days_of_work": "Dimanche - Vendredi ",
-        "closed": "Samedi : Fermé"
-    },
-    "services": {
-        "title": "Prix et réservations",
-        "subtitle": "Sélectionnez vos services en quelques clics et profitez d’un nettoyage automobile à domicile sans souci.",
-        "client_info": "Informations du client",
-        "full_name": "Nom complet *",
-        "email": "Email *",
-        "phone": "Téléphone *",
-        "address": "Adresse *",
-        "comments": "Commentaires supplémentaires (facultatif) *",
-        "available_services": "Services disponibles",
-        "add_to_cart": "Ajouter",
-        "your_selection": "Votre sélection",
-        "total": "Total",
-        "request_services": "Envoyer la demande",
-        "sending": "Envoi en cours..."
-    },
-    "reviews": {
-        "title": "Témoignagnes des clients",
-        "load_more": "Afficher plus"
+        "days_of_work": "Lundi - Vendredi ",
+        "contact_info": "Information pour contacter"
     }
 }

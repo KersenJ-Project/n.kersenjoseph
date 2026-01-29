@@ -22,7 +22,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2">
           <span className="text-lg font-semibold hidden sm:inline-block">
-            Maître SAINT-HILAIRE
+            Maitre Saint-Hilaire
           </span>
         </Link>
 
