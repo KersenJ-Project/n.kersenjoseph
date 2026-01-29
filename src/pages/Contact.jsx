@@ -9,7 +9,7 @@ export default function Contact() {
     <motion.section
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="relative w-screen bg-sky-50 flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8"
+      className="relative w-screen bg-sky-50 flex flex-col items-center justify-center py-16 px-4 sm:px-6 lg:px-8 gap-4"
     >
       <div className="max-w-4xl w-full">
         {/* Header */}
