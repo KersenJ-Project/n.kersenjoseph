@@ -3,9 +3,12 @@ import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { Briefcase, Scale, FileText, Building2, Shield, Clock, Ear } from 'lucide-react';
 import AnimatedButton from '../components/AnimatedButton';
+import useTypewriter from '../hooks/UseTypeWritter';
 
 export default function Home() {
   const { t } = useTranslation();
+
+  const typedText = useTypewriter(t('home.hero_title'))
 
   return (
     <div className="w-full bg-slate-950 text-slate-100">
@@ -21,13 +24,19 @@ export default function Home() {
             <p className="text-xs font-medium uppercase tracking-[0.3em] text-sky-300/70">
               {t('home.hero_tagline')}
             </p>
-            <h1
-              id="hero-title"
-              className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-slate-50 animate-fade-in-up opacity-0"
-              style={{ animationDelay: '0.1s' }}
-            >
-              {t('home.hero_title')}
-            </h1>
+            <div className='flex flex-row gap-4'>
+              <div 
+                className="w-2 rounded-full bg-sky-600 shadow-[0_0_15px_rgba(14,165,233,0.4)]" 
+                aria-hidden="true"
+              />
+              <h1
+                id="hero-title"
+                className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-slate-50 animate-fade-in-up opacity-0"
+                style={{ animationDelay: '0.1s' }}
+              >
+                {typedText}
+              </h1>
+            </div>
             <p
               className="max-w-2xl text-sm sm:text-base md:text-lg leading-relaxed text-slate-300 animate-fade-in-up opacity-0"
               style={{ animationDelay: '0.25s' }}
