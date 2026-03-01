@@ -16,7 +16,7 @@ export default function LanguageSwitcher({ isMobile }) {
     <div
       className={`relative flex ${
         isMobile ? "justify-start" : "justify-center"
-      } items-center bg-sky-700 rounded-xl p-2 w-26 h-12`}
+      } items-center bg-slate-950 rounded-xl p-2 w-26 h-12`}
     >
       {/* La box qui glisse */}
       <motion.div
