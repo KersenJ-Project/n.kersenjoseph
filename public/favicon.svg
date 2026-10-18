@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" rx="24" fill="#2B1916" />
+  <circle cx="50" cy="50" r="46" stroke="#E8892E" stroke-width="2" fill="none" opacity="0.4" />
+  <circle cx="50" cy="50" r="38" stroke="#800020" stroke-width="2" fill="none" opacity="0.6" />
+  <g fill="#FFF2DF">
+    <!-- Branche gauche du N -->
+    <path d="M18 74L36 26H48L30 74H18Z" />
+    <!-- Diagonale du N -->
+    <path d="M44 26L68 74H54L34 33L44 26Z" />
+    <!-- Branche droite et crochet du J -->
+    <path d="M66 26H82L68 64C65 71 58 74 51 74H46L49 64H51C54 64 58 62 60 59L66 26Z" />
+    <!-- Accent biseauté -->
+    <path d="M72 26L80 26L77 34L69 34L72 26Z" opacity="0.9" />
+  </g>
+</svg>

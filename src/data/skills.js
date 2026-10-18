@@ -1,0 +1,53 @@
+export const skillCategories = [
+  {
+    id: 'langages',
+    trackNumber: 'SIDE A — TRACK 01',
+    titleKey: 'skills.categories.languages',
+    items: ['Java', 'JavaScript', 'TypeScript', 'Python', 'C#', 'SQL', 'HTML', 'CSS'],
+  },
+  {
+    id: 'frameworks',
+    trackNumber: 'SIDE A — TRACK 02',
+    titleKey: 'skills.categories.frameworks',
+    items: [
+      'React',
+      'React Native',
+      'Expo',
+      'Node.js',
+      'Spring Boot',
+      'Tailwind CSS',
+      'Framer Motion',
+      'i18n',
+    ],
+  },
+  {
+    id: 'databases',
+    trackNumber: 'SIDE B — TRACK 01',
+    titleKey: 'skills.categories.databases',
+    items: ['Microsoft SQL Server', 'MongoDB', 'SQLite', 'PostgreSQL'],
+  },
+  {
+    id: 'cloud',
+    trackNumber: 'SIDE B — TRACK 02',
+    titleKey: 'skills.categories.cloud',
+    items: ['AWS (réseaux, machines virtuelles)', 'Docker', 'Kubernetes', 'GNS3'],
+  },
+  {
+    id: 'outils',
+    trackNumber: 'BONUS TRACK',
+    titleKey: 'skills.categories.tools',
+    items: [
+      'Git',
+      'Git Flow',
+      'GitHub',
+      'Vercel',
+      'Jira',
+      'Trello',
+      'VS Code',
+      'Visual Studio',
+      'IntelliJ',
+      'REST API',
+      'Agile/Scrum',
+    ],
+  },
+];

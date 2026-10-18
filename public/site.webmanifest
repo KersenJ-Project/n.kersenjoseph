@@ -1,0 +1,21 @@
+{
+  "name": "Nyle Kersen Joseph — Portfolio",
+  "short_name": "NKJ Portfolio",
+  "description": "Portfolio de Nyle Kersen Joseph, Développeur Full Stack",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2B1916",
+  "theme_color": "#E8892E",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

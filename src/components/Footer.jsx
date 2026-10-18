@@ -1,68 +1,60 @@
+import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Phone, MapPin, Instagram, Mail } from 'lucide-react';
+import { ArrowUp } from 'lucide-react';
+import Logo from './Logo';
+import { navItems, profile } from '../data/links';
 
 export default function Footer() {
   const { t } = useTranslation();
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
-    <footer className="w-full border-t border-slate-800 bg-slate-950 text-slate-200 py-10 sm:py-14">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 md:gap-10">
-          
-          <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
-              <h2 className="font-heading text-2xl font-semibold text-slate-50 flex items-center gap-2">
-                {t('footer.brand')}
-              </h2>
-            </div>
-            <p className="text-slate-400 text-sm leading-relaxed max-w-md">
-              {t('footer.description')}
-            </p>
+    <footer className="border-t border-mocha-500/30 bg-espresso-950/80 dark:bg-espresso-950/80 light:bg-cream-200/50 py-12 px-4 sm:px-6 lg:px-8 text-center text-sm text-muted relative">
+      <div className="mx-auto max-w-6xl flex flex-col items-center gap-6">
+        {/* Monogramme NJ cliquable pour remonter en haut */}
+        <button
+          type="button"
+          onClick={scrollToTop}
+          className="group inline-flex flex-col items-center gap-2 text-ink hover:text-amber-500 transition-colors cursor-pointer"
+          aria-label={t('footer.backToTop')}
+        >
+          <div className="h-12 w-12 rounded-full border border-mocha-500/30 bg-surface flex items-center justify-center p-2.5 shadow-xs group-hover:border-amber-500 group-hover:scale-105 transition-all">
+            <Logo size={28} className="text-ink group-hover:text-amber-500" />
           </div>
+          <span className="font-display text-xs tracking-wider text-caramel-400 uppercase flex items-center gap-1">
+            <ArrowUp size={12} /> {t('footer.backToTop')}
+          </span>
+        </button>
 
-          <div className="col-span-1">
-            <h3 className="text-lg font-semibold text-slate-100 mb-3">
-              {t('footer.contact_title')}
-            </h3>
-            <ul className="space-y-3 text-sm text-slate-300">
-              <li className="flex flex-wrap items-center gap-2">
-                <Phone size={18} />
+        {/* Liens de navigation rapides */}
+        <nav aria-label="Liens de pied de page">
+          <ul className="flex flex-wrap justify-center gap-4 sm:gap-6 list-none p-0 m-0 text-xs sm:text-sm font-medium">
+            {navItems.map((item) => (
+              <li key={item.id}>
                 <a
-                  href="tel:0601686661"
-                  className="hover:text-sky-300 transition-colors duration-300"
+                  href={`#${item.id}`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById(item.id)?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className="text-muted hover:text-amber-500 transition-colors"
                 >
-                  06 01 68 66 61
+                  {t(item.key)}
                 </a>
               </li>
-              <li className="flex flex-wrap items-center gap-2">
-                <Mail size={18} />
-                <a
-                  href="mailto:jovenel.saint-hilaire@avocat.fr"
-                  className="hover:text-sky-300 transition-colors duration-300"
-                >
-                  jovenel.saint-hilaire@avocat.fr
-                </a>
-              </li>
-              <li className="flex flex-wrap items-start gap-2">
-                <MapPin size={18} />
-                <span className="hover:text-sky-300 transition-colors duration-300">
-                  {t('footer.address_value')}
-                </span>
-              </li>
-            </ul>
-          </div>
+            ))}
+          </ul>
+        </nav>
 
-        </div>
-
-        <div className="border-t border-slate-800 mt-10 pt-5 text-xs sm:text-sm text-slate-500">
-          <div className="flex flex-col sm:flex-row justify-between items-center text-center gap-4">
-            <p>
-              © {new Date().getFullYear()} {t('footer.brand')} — {t('footer.rights_reserved')}
-            </p>
-            <p className="text-[11px] text-slate-500">
-              {t('footer.siren_label')}: {t('footer.siren_value')}
-            </p>
-          </div>
+        {/* Mentions et ligne ludique jazz */}
+        <div className="pt-4 border-t border-mocha-500/20 w-full flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-muted">
+          <p>© 2026 {profile.name}. {t('footer.rights')}</p>
+          <p className="font-serif italic text-caramel-400">
+            {t('footer.pressedIn')}
+          </p>
         </div>
       </div>
     </footer>

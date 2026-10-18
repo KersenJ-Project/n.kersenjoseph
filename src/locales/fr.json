@@ -1,0 +1,156 @@
+{
+  "seo": {
+    "title": "Nyle Kersen Joseph — Développeur Full Stack | Portfolio",
+    "description": "Portfolio de Nyle Kersen Joseph, développeur full stack et finissant en Techniques de l'informatique au Cégep Marie-Victorin. Projets web multilingues, React, bases de données."
+  },
+  "nav": {
+    "home": "Accueil",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "experience": "Parcours",
+    "contact": "Contact",
+    "themeToggleLight": "Activer le mode clair",
+    "themeToggleDark": "Activer le mode sombre",
+    "langToggle": "Passer en anglais",
+    "menuOpen": "Ouvrir le menu de navigation",
+    "menuClose": "Fermer le menu de navigation",
+    "skipToContent": "Aller au contenu principal"
+  },
+  "hero": {
+    "badge": "Portfolio · Repentigny, Québec",
+    "greeting": "Salut, je suis",
+    "name": "Nyle Kersen Joseph",
+    "currentFocus": "Actuellement : SQL · Python",
+    "intro": "Finissant en Techniques de l'informatique au Cégep Marie-Victorin, passionné par le développement web full stack et les bases de données.",
+    "ctaProjects": "Voir mes projets",
+    "ctaContact": "Me contacter",
+    "stereoBadge": "STEREO HIGH FIDELITY",
+    "rpmBadge": "33⅓ RPM",
+    "scrollHint": "Faire défiler pour explorer",
+    "vinylLabel": "FULL STACK · 2027",
+    "typewriter": [
+      "Développeur Full Stack",
+      "Étudiant en Techniques de l'informatique",
+      "Créateur de sites web multilingues",
+      "À la recherche d'un stage d'hiver 2027"
+    ]
+  },
+  "techCarousel": {
+    "title": "Technologies maîtrisées et outils utilisés"
+  },
+  "skills": {
+    "surtitle": "01 — COMPÉTENCES",
+    "title": "Face A / Face B : Compétences & Outils",
+    "subtitle": "Un répertoire rigoureux de technologies modernes pour concevoir des applications web robustes, performantes et évolutives.",
+    "learningBadge": "En cours",
+    "learningTitle": "En apprentissage",
+    "learningSubtitle": "Formations actives pour approfondir la maîtrise backend et data :",
+    "softSkills": "Savoir-être : autonomie, fiabilité, rigueur, travail d’équipe",
+    "languages": "Langues : français (courant), anglais (fonctionnel), créole",
+    "categories": {
+      "languages": "Langages",
+      "frameworks": "Frameworks & Bibliothèques",
+      "databases": "Bases de données",
+      "cloud": "Cloud & DevOps",
+      "tools": "Outils & Méthodologies"
+    }
+  },
+  "projects": {
+    "surtitle": "02 — PROJETS",
+    "title": "Catalogue des Réalisations",
+    "subtitle": "Sites web déployés sur Vercel, optimisés pour la rapidité d'affichage, avec configuration DNS personnalisée et internationalisation soignée.",
+    "viewSite": "Voir le site",
+    "viewCode": "Code source",
+    "statusSoon": "Bientôt disponible",
+    "esthetiquePlus": {
+      "title": "EsthetiquePlus Inc.",
+      "description": "Site web multilingue (i18n) conçu pour une entreprise spécialisée en esthétique automobile haut de gamme. De l'analyse des besoins à la mise en ligne avec domaine personnalisé sur Vercel."
+    },
+    "andConstruction": {
+      "title": "AND Construction",
+      "description": "Plateforme web multilingue pour une entreprise générale de construction. Architecture performante, temps de chargement optimisés et gestion DNS complète."
+    },
+    "comingSoon1": {
+      "title": "Projet Full Stack à venir",
+      "description": "Application web interactive en cours de conception intégrant une architecture modulaire, une API REST et une gestion d'état avancée."
+    },
+    "comingSoon2": {
+      "title": "Service Backend & Base de données",
+      "description": "Système de traitement de données et automatisation backend basé sur Python, SQL et conteneurisation Docker."
+    }
+  },
+  "experience": {
+    "surtitle": "03 — PARCOURS",
+    "title": "Pistes & Cheminement",
+    "subtitle": "Une progression continue alliant pratique freelance, accompagnement pédagogique, rigueur industrielle et formation académique.",
+    "freelance": {
+      "period": "06/2024 — Présent",
+      "role": "Développeur Full Stack Freelance",
+      "place": "Repentigny (Québec)",
+      "details": [
+        "Conception et livraison de sites web multilingues (i18n) pour EsthetiquePlus Inc. et AND Construction",
+        "Optimisation poussée des performances Lighthouse, temps de réponse et SEO",
+        "Gestion intégrale du cycle de vie du projet : cadrage, intégration, déploiement Vercel et configuration DNS"
+      ]
+    },
+    "onlineCourses": {
+      "period": "2026 — En cours",
+      "role": "Formations spécialisées en ligne",
+      "place": "Udemy & Code With Mosh",
+      "details": [
+        "SQL (Udemy) : modélisation relationnelle, requêtes complexes, jointures et indexation avancée",
+        "Python (Code With Mosh) : programmation orientée objet, automatisation, scripts et manipulation de données"
+      ]
+    },
+    "tutor": {
+      "period": "09/2026 — Présent",
+      "role": "Tuteur en création de sites web",
+      "place": "Cégep Marie-Victorin, Montréal",
+      "details": [
+        "Accompagnement individuel et en groupe des étudiants de première année en HTML5, CSS3 et JavaScript",
+        "Aide au débogage méthodique et transmission des bonnes pratiques d'accessibilité et de propreté du code"
+      ]
+    },
+    "dec": {
+      "period": "05/2027 (Prévu)",
+      "role": "DEC en Techniques de l'informatique",
+      "place": "Cégep Marie-Victorin, Montréal",
+      "details": [
+        "Développement logiciel full stack, architecture logicielle, programmation orientée objet (Java, C#)",
+        "Bases de données relationnelles et NoSQL (SQL Server, PostgreSQL, MongoDB)",
+        "Réseautage, machines virtuelles AWS, conteneurisation et pratiques Git Flow"
+      ]
+    }
+  },
+  "contact": {
+    "surtitle": "04 — CONTACT",
+    "title": "Travaillons ensemble",
+    "subtitle": "Un projet en tête, une opportunité de stage d'hiver 2027 ou simplement envie d'échanger ? Envoyez-moi un message.",
+    "nameLabel": "Votre nom",
+    "namePlaceholder": "ex. Jean Tremblay",
+    "emailLabel": "Votre courriel",
+    "emailPlaceholder": "jean@exemple.com",
+    "subjectLabel": "Sujet",
+    "subjectPlaceholder": "Proposition de projet / Stage hiver 2027",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Décrivez votre projet ou votre demande en quelques phrases...",
+    "submit": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès ! Merci, je vous répondrai dans les plus brefs délais.",
+    "error": "L'envoi a échoué. Veuillez réessayer ou m'écrire directement par courriel.",
+    "directEmail": "Courriel direct",
+    "location": "Localisation",
+    "errors": {
+      "nameRequired": "Le nom est obligatoire.",
+      "emailRequired": "L'adresse courriel est requise.",
+      "emailInvalid": "Veuillez entrer une adresse courriel valide.",
+      "subjectRequired": "Le sujet est obligatoire.",
+      "messageMin": "Le message doit comporter au moins 10 caractères."
+    }
+  },
+  "footer": {
+    "pressedIn": "Pressé à Repentigny, QC",
+    "rights": "Tous droits réservés.",
+    "backToTop": "Retour en haut"
+  }
+}

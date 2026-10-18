@@ -1,0 +1,156 @@
+{
+  "seo": {
+    "title": "Nyle Kersen Joseph — Full Stack Developer | Portfolio",
+    "description": "Portfolio of Nyle Kersen Joseph, Full Stack Developer and Computer Science Technology student at Cégep Marie-Victorin. Multilingual web projects, React, databases."
+  },
+  "nav": {
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "themeToggleLight": "Switch to light theme",
+    "themeToggleDark": "Switch to dark theme",
+    "langToggle": "Passer en français",
+    "menuOpen": "Open navigation menu",
+    "menuClose": "Close navigation menu",
+    "skipToContent": "Skip to main content"
+  },
+  "hero": {
+    "badge": "Portfolio · Repentigny, Quebec",
+    "greeting": "Hi, I'm",
+    "name": "Nyle Kersen Joseph",
+    "currentFocus": "Currently: SQL · Python",
+    "intro": "Finishing Computer Science Technology at Cégep Marie-Victorin, passionate about full-stack web development and modern databases.",
+    "ctaProjects": "Explore my projects",
+    "ctaContact": "Get in touch",
+    "stereoBadge": "STEREO HIGH FIDELITY",
+    "rpmBadge": "33⅓ RPM",
+    "scrollHint": "Scroll to discover",
+    "vinylLabel": "FULL STACK · 2027",
+    "typewriter": [
+      "Full Stack Developer",
+      "Computer Science Technology Student",
+      "Creator of Multilingual Websites",
+      "Seeking a Winter 2027 Internship"
+    ]
+  },
+  "techCarousel": {
+    "title": "Core technologies and daily toolkit"
+  },
+  "skills": {
+    "surtitle": "01 — SKILLS",
+    "title": "Side A / Side B: Skills & Tooling",
+    "subtitle": "A disciplined repertoire of modern technologies used to engineer reliable, fast, and scalable digital solutions.",
+    "learningBadge": "In Progress",
+    "learningTitle": "Continuous Learning",
+    "learningSubtitle": "Active deep-dive courses focusing on backend architecture and database mastery:",
+    "softSkills": "Core competencies: autonomy, dependability, diligence, teamwork",
+    "languages": "Languages: French (native/fluent), English (professional), Creole",
+    "categories": {
+      "languages": "Programming Languages",
+      "frameworks": "Frameworks & Libraries",
+      "databases": "Database Systems",
+      "cloud": "Cloud & DevOps",
+      "tools": "Developer Tools & Methods"
+    }
+  },
+  "projects": {
+    "surtitle": "02 — PROJECTS",
+    "title": "Selected Works & Releases",
+    "subtitle": "Live web applications deployed on Vercel, optimized for peak performance, customized DNS routing, and bilingual localization.",
+    "viewSite": "Visit site",
+    "viewCode": "Source code",
+    "statusSoon": "Coming Soon",
+    "esthetiquePlus": {
+      "title": "EsthetiquePlus Inc.",
+      "description": "Bilingual (i18n) high-conversion web platform crafted for a premium car detailing enterprise. From stakeholder discovery to deployment on custom client DNS."
+    },
+    "andConstruction": {
+      "title": "AND Construction",
+      "description": "Multilingual responsive platform for a general construction company. Engineered for ultra-fast load times, semantic SEO, and seamless DNS integration on Vercel."
+    },
+    "comingSoon1": {
+      "title": "Upcoming Full Stack Application",
+      "description": "Currently designing a modular interactive web platform featuring clean REST APIs, robust state management, and real-time updates."
+    },
+    "comingSoon2": {
+      "title": "Backend Service & Data Pipeline",
+      "description": "Data processing and automation backend architected with Python, SQL queries, and containerized Docker deployment."
+    }
+  },
+  "experience": {
+    "surtitle": "03 — EXPERIENCE",
+    "title": "Tracks & Trajectory",
+    "subtitle": "A progressive career track blending independent client work, peer teaching, industrial rigor, and academic computer science.",
+    "freelance": {
+      "period": "06/2024 — Present",
+      "role": "Freelance Full Stack Developer",
+      "place": "Repentigny (Quebec)",
+      "details": [
+        "Delivered performant multilingual web platforms for EsthetiquePlus Inc. and AND Construction",
+        "Streamlined loading performance, achieving high Lighthouse scores and zero layout shifts",
+        "Orchestrated end-to-end delivery: technical scoping, frontend design, Vercel deployments, and DNS configuration"
+      ]
+    },
+    "onlineCourses": {
+      "period": "2026 — In Progress",
+      "role": "Specialized Online Courses",
+      "place": "Udemy & Code With Mosh",
+      "details": [
+        "SQL (Udemy): relational modeling, complex joins, nested queries, transactions, and indexing strategies",
+        "Python (Code With Mosh): object-oriented programming, data structures, scripting, and backend automation"
+      ]
+    },
+    "tutor": {
+      "period": "09/2026 — Present",
+      "role": "Web Development Peer Tutor",
+      "place": "Cégep Marie-Victorin, Montreal",
+      "details": [
+        "Mentoring first-year computer science students in HTML5, CSS3 styling, and JavaScript logic",
+        "Fostering autonomous problem-solving, structured debugging workflows, and code accessibility"
+      ]
+    },
+    "dec": {
+      "period": "05/2027 (Expected)",
+      "role": "DEC in Computer Science Technology",
+      "place": "Cégep Marie-Victorin, Montreal",
+      "details": [
+        "Full stack software architecture, object-oriented programming in Java and C#",
+        "Relational & NoSQL database management (SQL Server, PostgreSQL, MongoDB)",
+        "Networking fundamentals, AWS cloud virtual machines, Docker containerization, and Git Flow"
+      ]
+    }
+  },
+  "contact": {
+    "surtitle": "04 — CONTACT",
+    "title": "Let's work together",
+    "subtitle": "Have an exciting project, a winter 2027 internship opportunity, or want to connect? Drop me a message below.",
+    "nameLabel": "Your Name",
+    "namePlaceholder": "e.g. John Doe",
+    "emailLabel": "Your Email",
+    "emailPlaceholder": "john@example.com",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Project inquiry / Winter 2027 internship",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell me about your project, timeline, or inquiries...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully! Thank you, I will get back to you shortly.",
+    "error": "Failed to send message. Please try again or reach out directly via email.",
+    "directEmail": "Direct Email",
+    "location": "Location",
+    "errors": {
+      "nameRequired": "Name is required.",
+      "emailRequired": "Email address is required.",
+      "emailInvalid": "Please enter a valid email address.",
+      "subjectRequired": "Subject is required.",
+      "messageMin": "Message must be at least 10 characters long."
+    }
+  },
+  "footer": {
+    "pressedIn": "Pressed in Repentigny, QC",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
+  }
+}
