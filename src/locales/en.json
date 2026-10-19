@@ -17,10 +17,10 @@
     "skipToContent": "Skip to main content"
   },
   "hero": {
-    "badge": "Portfolio · Repentigny, Quebec",
+    "badge": "Portfolio · Montreal, Quebec",
     "greeting": "Hi, I'm",
     "name": "Nyle Kersen Joseph",
-    "currentFocus": "Currently: SQL · Python",
+    "currentFocus": "Currently focusing: SQL · Python",
     "intro": "Finishing Computer Science Technology at Cégep Marie-Victorin, passionate about full-stack web development and modern databases.",
     "ctaProjects": "Explore my projects",
     "ctaContact": "Get in touch",
@@ -40,7 +40,7 @@
   },
   "skills": {
     "surtitle": "01 — SKILLS",
-    "title": "Side A / Side B: Skills & Tooling",
+    "title": "Skills & Tooling",
     "subtitle": "A disciplined repertoire of modern technologies used to engineer reliable, fast, and scalable digital solutions.",
     "learningBadge": "In Progress",
     "learningTitle": "Continuous Learning",
@@ -86,7 +86,7 @@
     "freelance": {
       "period": "06/2024 — Present",
       "role": "Freelance Full Stack Developer",
-      "place": "Repentigny (Quebec)",
+      "place": "Montréal (Quebec)",
       "details": [
         "Delivered performant multilingual web platforms for EsthetiquePlus Inc. and AND Construction",
         "Streamlined loading performance, achieving high Lighthouse scores and zero layout shifts",
@@ -149,7 +149,7 @@
     }
   },
   "footer": {
-    "pressedIn": "Pressed in Repentigny, QC",
+    "pressedIn": "Pressed in Montréal, QC",
     "rights": "All rights reserved.",
     "backToTop": "Back to top"
   }

@@ -17,10 +17,10 @@
     "skipToContent": "Aller au contenu principal"
   },
   "hero": {
-    "badge": "Portfolio · Repentigny, Québec",
+    "badge": "Portfolio · Montréal, Québec",
     "greeting": "Salut, je suis",
     "name": "Nyle Kersen Joseph",
-    "currentFocus": "Actuellement : SQL · Python",
+    "currentFocus": "Actuellement concentré: SQL · Python",
     "intro": "Finissant en Techniques de l'informatique au Cégep Marie-Victorin, passionné par le développement web full stack et les bases de données.",
     "ctaProjects": "Voir mes projets",
     "ctaContact": "Me contacter",
@@ -40,7 +40,7 @@
   },
   "skills": {
     "surtitle": "01 — COMPÉTENCES",
-    "title": "Face A / Face B : Compétences & Outils",
+    "title": "Compétences & Outils",
     "subtitle": "Un répertoire rigoureux de technologies modernes pour concevoir des applications web robustes, performantes et évolutives.",
     "learningBadge": "En cours",
     "learningTitle": "En apprentissage",
@@ -86,7 +86,7 @@
     "freelance": {
       "period": "06/2024 — Présent",
       "role": "Développeur Full Stack Freelance",
-      "place": "Repentigny (Québec)",
+      "place": "Montréal (Québec)",
       "details": [
         "Conception et livraison de sites web multilingues (i18n) pour EsthetiquePlus Inc. et AND Construction",
         "Optimisation poussée des performances Lighthouse, temps de réponse et SEO",
@@ -149,7 +149,7 @@
     }
   },
   "footer": {
-    "pressedIn": "Pressé à Repentigny, QC",
+    "pressedIn": "Pressé à Montréal, QC",
     "rights": "Tous droits réservés.",
     "backToTop": "Retour en haut"
   }
