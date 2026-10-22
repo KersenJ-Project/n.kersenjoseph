@@ -56,27 +56,47 @@
     }
   },
   "projects": {
-    "surtitle": "02 — PROJECTS",
+    "surtitle": "Side B · Projects",
     "title": "Selected Works & Releases",
-    "subtitle": "Live web applications deployed on Vercel, optimized for peak performance, customized DNS routing, and bilingual localization.",
+    "subtitle": "Custom-engineered web applications and platforms, deployed on Vercel with custom domain configuration and localization.",
+    "track": "Track {{num}}",
     "viewSite": "Visit site",
-    "viewCode": "Source code",
-    "statusSoon": "Coming Soon",
+    "viewCode": "Code",
+    "zoomImage": "Enlarge preview",
+    "closeLightbox": "Close preview",
+    "types": {
+      "showcase": "Multilingual Showcase Website",
+      "fullstack": "Full-Stack Application",
+      "upcoming": "In the Studio"
+    },
     "esthetiquePlus": {
       "title": "EsthetiquePlus Inc.",
-      "description": "Bilingual (i18n) high-conversion web platform crafted for a premium car detailing enterprise. From stakeholder discovery to deployment on custom client DNS."
+      "type": "Multilingual Showcase Website",
+      "description": "Multilingual website (French & English) built for a car detailing company. Deployed on Vercel with optimized load times and client domain DNS configuration.",
+      "alt": "Screenshot of the EsthetiquePlus Inc. homepage"
     },
     "andConstruction": {
       "title": "AND Construction",
-      "description": "Multilingual responsive platform for a general construction company. Engineered for ultra-fast load times, semantic SEO, and seamless DNS integration on Vercel."
+      "type": "Multilingual Showcase Website",
+      "description": "Multilingual website developed for a construction company. Managed from requirement analysis to final delivery, deployed on Vercel with the client's custom domain.",
+      "alt": "Screenshot of the AND Construction website"
     },
-    "comingSoon1": {
-      "title": "Upcoming Full Stack Application",
-      "description": "Currently designing a modular interactive web platform featuring clean REST APIs, robust state management, and real-time updates."
+    "timeWork": {
+      "title": "TimeWork",
+      "type": "Full-Stack Application",
+      "description": "TimeWork is a full-stack application that allows companies to manage everything in one central hub: payroll, employee availability (validated by managers), and worked hours tracking. HR teams can promote employees and adjust salaries with ease. The application features protected routes based on role: employee, manager, and administrator.",
+      "alt": "Screenshot of the TimeWork application dashboard",
+      "features": {
+        "payroll": "Payroll",
+        "availability": "Schedules & Availability",
+        "hours": "Hours Tracking",
+        "roles": "Role-Based Access (Employee · Manager · Admin)"
+      }
     },
-    "comingSoon2": {
-      "title": "Backend Service & Data Pipeline",
-      "description": "Data processing and automation backend architected with Python, SQL queries, and containerized Docker deployment."
+    "comingSoon": {
+      "title": "Upcoming Project",
+      "type": "In the Studio",
+      "description": "A new record is currently in the studio."
     }
   },
   "experience": {

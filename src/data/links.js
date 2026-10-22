@@ -3,7 +3,7 @@ import { SITE_URL } from './site';
 export const profile = {
   name: 'Nyle Kersen Joseph',
   firstName: 'Nyle',
-  initials: 'NJ',
+  initials: 'NKJ',
   title: 'Développeur Full Stack',
   email: 'nylekersenjoseph@gmail.com',
   location: 'Repentigny (Québec)',
@@ -13,8 +13,8 @@ export const profile = {
 };
 
 export const socialLinks = {
-  github: 'https://github.com/VOTRE-UTILISATEUR',
-  linkedin: 'https://www.linkedin.com/in/VOTRE-PROFIL',
+  github: 'https://github.com/KersenJ-Project',
+  linkedin: 'https://www.linkedin.com/in/nyle-kersen-joseph-3abb053a2/',
 };
 
 export const navItems = [

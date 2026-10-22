@@ -56,27 +56,47 @@
     }
   },
   "projects": {
-    "surtitle": "02 — PROJETS",
+    "surtitle": "Face B · Les projets",
     "title": "Catalogue des Réalisations",
-    "subtitle": "Sites web déployés sur Vercel, optimisés pour la rapidité d'affichage, avec configuration DNS personnalisée et internationalisation soignée.",
+    "subtitle": "Applications web et plateformes conçues sur mesure, déployées sur Vercel avec domaine personnalisé et internationalisation.",
+    "track": "Piste {{num}}",
     "viewSite": "Voir le site",
-    "viewCode": "Code source",
-    "statusSoon": "Bientôt disponible",
+    "viewCode": "Code",
+    "zoomImage": "Agrandir la capture",
+    "closeLightbox": "Fermer l'aperçu",
+    "types": {
+      "showcase": "Site vitrine multilingue",
+      "fullstack": "Application full stack",
+      "upcoming": "En enregistrement"
+    },
     "esthetiquePlus": {
       "title": "EsthetiquePlus Inc.",
-      "description": "Site web multilingue (i18n) conçu pour une entreprise spécialisée en esthétique automobile haut de gamme. De l'analyse des besoins à la mise en ligne avec domaine personnalisé sur Vercel."
+      "type": "Site vitrine multilingue",
+      "description": "Site web multilingue (français / anglais) pour une entreprise de nettoyage de voitures. Déployé sur Vercel avec optimisation des temps de chargement et configuration du DNS du domaine du client.",
+      "alt": "Capture d'écran de la page d'accueil d'EsthetiquePlus Inc."
     },
     "andConstruction": {
       "title": "AND Construction",
-      "description": "Plateforme web multilingue pour une entreprise générale de construction. Architecture performante, temps de chargement optimisés et gestion DNS complète."
+      "type": "Site vitrine multilingue",
+      "description": "Site web multilingue pour une entreprise de construction. Projet géré de l'analyse des besoins à la livraison, déployé sur Vercel avec le domaine du client.",
+      "alt": "Capture d'écran du site AND Construction"
     },
-    "comingSoon1": {
-      "title": "Projet Full Stack à venir",
-      "description": "Application web interactive en cours de conception intégrant une architecture modulaire, une API REST et une gestion d'état avancée."
+    "timeWork": {
+      "title": "TimeWork",
+      "type": "Application full stack",
+      "description": "TimeWork est une application full stack qui permet aux entreprises de tout gérer au même endroit : la paie, les disponibilités des employés (que les gérants valident) et le suivi des heures travaillées. Les RH peuvent promouvoir les employés et ajuster leur salaire facilement. L'application propose des routes réservées selon le rôle : employé, gérant et administrateur.",
+      "alt": "Capture d'écran du tableau de bord de l'application TimeWork",
+      "features": {
+        "payroll": "Paie",
+        "availability": "Horaires et disponibilités",
+        "hours": "Heures travaillées",
+        "roles": "Accès par rôle (employé · gérant · admin)"
+      }
     },
-    "comingSoon2": {
-      "title": "Service Backend & Base de données",
-      "description": "Système de traitement de données et automatisation backend basé sur Python, SQL et conteneurisation Docker."
+    "comingSoon": {
+      "title": "Projet à venir",
+      "type": "En enregistrement",
+      "description": "Un nouveau disque est en cours d'enregistrement."
     }
   },
   "experience": {
