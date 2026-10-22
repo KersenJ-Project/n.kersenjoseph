@@ -6,7 +6,7 @@ export const profile = {
   initials: 'NKJ',
   title: 'Développeur Full Stack',
   email: 'nylekersenjoseph@gmail.com',
-  location: 'Repentigny (Québec)',
+  location: 'Montréal (Québec)',
   postalCode: 'J5Z',
   school: 'Cégep Marie-Victorin',
   siteUrl: SITE_URL,
